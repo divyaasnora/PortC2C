@@ -2,8 +2,7 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import "./Login.css";
-import eyeHide from '../../assets/eye hide.svg';
-import eyeOpen from '../../assets/eye open.png';
+
 import icon from '../../assets/download.jpg';
 
 function Login() {
@@ -70,12 +69,7 @@ function Login() {
             onChange={handleChange}
             required
           />
-          <img
-            src={showPassword ? eyeHide : eyeOpen}
-            alt="Toggle visibility"
-            onClick={() => setShowPassword(!showPassword)}
-            className="toggle-eye"
-          />
+          
         </div>
 
         <button type="submit">Login</button>
