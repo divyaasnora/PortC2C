@@ -1,8 +1,8 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
-  "bin": "server.js",
+  "main": "server.js",
+  
 "pkg": {
   "assets": ["build/**/*"],
   "targets": ["node18-win-x64"]
